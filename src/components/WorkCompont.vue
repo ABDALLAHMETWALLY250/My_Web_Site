@@ -577,6 +577,125 @@
           </figcaption>
         </figure>
       </div>
+      <div data-aos="zoom-in" class="col-lg-6 col-sm-6 col-md-6 mt-5">
+        <figure class="imghvr-fold-left">
+          <img
+            src="https://agency-templeate.netlify.app/img/header-bg.442d66ba.jpg"
+          />
+          <figcaption>
+            <h3>Agency</h3>
+            <div
+              class="dflex w-100"
+              style="justify-content: space-evenly; margin-top: 50px"
+            >
+              <p
+                style="border-radius: 5px"
+                class="bg-light text-dark p-1 dflex"
+              >
+                <i class="fa-brands fa-html5"></i> HTML
+              </p>
+              <p
+                style="border-radius: 5px"
+                class="bg-light text-dark p-1 dflex"
+              >
+                <i class="fa-brands fa-css3-alt"></i> CSS
+              </p>
+              <p
+                style="border-radius: 5px"
+                class="bg-light text-dark p-1 dflex"
+              >
+                <i class="fa-brands fa-bootstrap"></i> bootstrap
+              </p>
+              <p
+                style="border-radius: 5px"
+                class="bg-light text-dark p-1 dflex"
+              >
+                <i class="fa-brands fa-vuejs"></i> Vue
+              </p>
+            </div>
+            <div class="buttons">
+              <button type="button" class="btn btn-success">
+                <i class="fa-solid fa-link"></i> DEMO
+                <a
+                  href="https://agency.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </button>
+
+              <button type="button" class="btn btn-success">
+                <i class="fa-regular fa-code-branch"></i> REPO
+                <a
+                  href="https://github.com/ABDALLAHMETWALLY250/Agency"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </button>
+
+              <button><i class="fa-solid fa-eye"></i> 10</button>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div data-aos="zoom-in" class="col-lg-6 col-sm-6 col-md-6 mt-5">
+        <figure class="imghvr-fold-left">
+          <img src="https://convid.netlify.app/images/banner-img.png" />
+          <figcaption>
+            <h3>Convid</h3>
+            <div
+              class="dflex w-100"
+              style="justify-content: space-evenly; margin-top: 50px"
+            >
+              <p
+                style="border-radius: 5px"
+                class="bg-light text-dark p-1 dflex"
+              >
+                <i class="fa-brands fa-html5"></i> HTML
+              </p>
+              <p
+                style="border-radius: 5px"
+                class="bg-light text-dark p-1 dflex"
+              >
+                <i class="fa-brands fa-css3-alt"></i> CSS
+              </p>
+              <p
+                style="border-radius: 5px"
+                class="bg-light text-dark p-1 dflex"
+              >
+                <i class="fa-brands fa-bootstrap"></i> bootstrap
+              </p>
+              <p
+                style="border-radius: 5px"
+                class="bg-light text-dark p-1 dflex"
+              >
+                <i class="fa-brands fa-vuejs"></i> Vue
+              </p>
+            </div>
+            <div class="buttons">
+              <button type="button" class="btn btn-success">
+                <i class="fa-solid fa-link"></i> DEMO
+                <a
+                  href="https://convid.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </button>
+
+              <button type="button" class="btn btn-success">
+                <i class="fa-regular fa-code-branch"></i> REPO
+                <a
+                  href="https://github.com/ABDALLAHMETWALLY250/gp-template"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </button>
+
+              <button><i class="fa-solid fa-eye"></i> 10</button>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
     </div>
   </div>
 </template>
