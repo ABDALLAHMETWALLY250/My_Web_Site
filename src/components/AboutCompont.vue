@@ -103,7 +103,7 @@
       <div class="card cal">
         <div class="card-body text-center hvr-sweep-to-right toi">
           <h5 class="card-title"><i class="fa-solid fa-user ou"></i></h5>
-          <p class="card-text fw-bolder">+11 Projects Complates</p>
+          <p class="card-text fw-bolder">+10 Projects Complates</p>
           <div class="buttons">
             <router-link to="/works">
               <a class="hvr-bob">
