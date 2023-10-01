@@ -15,7 +15,7 @@
     a {
       padding: 0;
       &.router-link-exact-active {
-        border-bottom: 2px solid white;
+        background-color: rgba($color: gray, $alpha: 0.5);
       }
     }
   }
