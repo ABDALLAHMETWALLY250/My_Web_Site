@@ -321,21 +321,26 @@
 </template>
 
 <script>
-import { mapActions, mapState } from "vuex";
+import axios from "axios";
 import ButtonsComp from "./ButtonsComp.vue";
 export default {
+  data() {
+    return {
+      data_works: [],
+    };
+  },
   mounted() {
     window.scrollTo(0, 0);
-    this.get_data_works();
+    axios
+      .get(
+        "https://my-json-server.typicode.com/ABDALLAHMETWALLY250/work-dp/works"
+      )
+      .then((res) => {
+        this.data_works = res.data;
+      });
   },
   components: {
     ButtonsComp,
-  },
-  computed: {
-    ...mapState(["data_works"]),
-  },
-  methods: {
-    ...mapActions(["get_data_works"]),
   },
 };
 </script>
