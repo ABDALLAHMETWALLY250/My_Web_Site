@@ -169,7 +169,8 @@ h2 {
     padding: 0;
   }
   h2 {
-    font-size: 29px;
+    // font-size: 29px;
+    font-size: 27px;
   }
   h4 {
     font-size: 22px;
@@ -185,9 +186,14 @@ h2 {
     font-size: 28px;
   }
   .detail {
+    // padding-left: 10px;
+    // padding-right: 10px;
+    // font-size: 18px;
+    // text-align: center;
+    // color: #101213;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     color: #101213;
   }
