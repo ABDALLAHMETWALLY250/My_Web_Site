@@ -1,11 +1,12 @@
 <template>
   <div class="Footer">
-    <div class="text">
+    <div class="text my-2">
       <p>
         Made With <i class="fa-solid fa-heart"></i> By Abdallah Mohamed © 2023
       </p>
     </div>
-    <div class="social text-center">
+    <!-- social -->
+    <div class="social text-center ">
       <a
         href="https://www.facebook.com/abdallah.metwally.925/"
         target="_blank"
