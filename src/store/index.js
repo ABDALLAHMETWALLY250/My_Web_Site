@@ -6,7 +6,6 @@ export default createStore({
     VistorName: prompt("Please, Enter Full Name"),
     data_about: [],
     data_services: [],
-    data_works: [],
   },
 
   mutations: {
@@ -16,10 +15,6 @@ export default createStore({
 
     set_data_services(state, data_services) {
       state.data_services = data_services;
-    },
-
-    set_data_works(state, data_works) {
-      state.data_works = data_works;
     },
   },
 
@@ -43,15 +38,5 @@ export default createStore({
           commit("set_data_services", res.data);
         });
     },
-  },
-
-  async get_data_works({ commit }) {
-    await axios
-      .get(
-        "https://my-json-server.typicode.com/ABDALLAHMETWALLY250/work-dp/works"
-      )
-      .then((res) => {
-        commit("set_data_works", res.data);
-      });
   },
 });
