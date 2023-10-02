@@ -506,9 +506,15 @@ button:hover::before {
   .item {
     border-radius: 20px;
   }
+  .dark-theme .item {
+    border-radius: 20px;
+  }
 }
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .item {
+    border-radius: 20px;
+  }
+  .dark-theme .item {
     border-radius: 20px;
   }
 }
